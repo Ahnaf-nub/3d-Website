@@ -76,3 +76,18 @@ p {
     font-size: 16px;
     margin-top: 10px;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .anime-card {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 576px) {
+    .anime-card {
+        width: 200px;
+        height: 300px;
+    }
+}
